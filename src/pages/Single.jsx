@@ -13,7 +13,7 @@ const Single = () => {
     const fetchPost = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:9000/server/view/${id}`
+          `https://myblog-backend-71rg.onrender.com/server/view/${id}`
         );
         setPost(response.data);
       } catch (error) {
