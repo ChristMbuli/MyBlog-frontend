@@ -14,7 +14,7 @@ const Index = () => {
     const fetchPosts = async () => {
       try {
         console.log("Avant l'appel Axios");
-        const response = await axios.get("http://localhost:9000/server/all", {
+        const response = await axios.get("https://myblog-backend-71rg.onrender.com/server/all", {
           withCredentials: true,
         });
 
