@@ -36,7 +36,7 @@ const Create = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:9000/server/add",
+        "https://myblog-backend-71rg.onrender.com/server/add",
         formToSend,
         {
           withCredentials: true,
