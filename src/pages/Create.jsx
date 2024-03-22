@@ -144,7 +144,7 @@ const Create = () => {
           </div>
         </form>
       </div>
-      <div className="fixed-bottom">
+      <div className="fixed-bottom mt-5" style={{marginTop: "2rem"}}>
         <Footer />
       </div>
     </div>
