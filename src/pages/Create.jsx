@@ -139,11 +139,12 @@ const Create = () => {
               Publier <i class="fa-solid fa-paper-plane"></i>
             </button>
             <Link class="btn btn-danger me-3" to={"/"}>
-              Anuler
+              Annuler
             </Link>
           </div>
         </form>
       </div>
+      <div className="mt-5 mb-5">Alors, installez-vous confortablement, laissez-vous emporter par des histoires et rejoignez-nous dans cette exploration infinie. Parce que, après tout, le monde est vaste et nos possibilités sont sans limites.</div>
       <div className="fixed-bottom mt-5" style={{marginTop: "2rem"}}>
         <Footer />
       </div>
